@@ -1,0 +1,5 @@
+{
+    "python.linting.pylintPath": "pylint-django",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}
