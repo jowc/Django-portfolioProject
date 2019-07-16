@@ -7,7 +7,7 @@ class blog(models.Model):
     date= models.DateTimeField(null=True)
     image= models.ImageField(upload_to="images/")
     content= models.TextField()
-    userComment= models.ForeignKey(User, on_delete= models.CASCADE)
+    #userComment= models.ForeignKey(User, on_delete= models.CASCADE)
 
     def summary(self):
         return self.content[:100]
